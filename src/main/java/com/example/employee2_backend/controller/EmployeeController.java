@@ -9,4 +9,8 @@ public class EmployeeController {
     public String HomePage(){
         return "home page";
     }
+    @GetMapping("/add")
+    public String EmployeeAdd(){
+        return  "employee add page";
+    }
 }
