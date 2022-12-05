@@ -13,4 +13,9 @@ public class EmployeeController {
     public String EmployeeAdd(){
         return  "employee add page";
     }
+    @GetMapping("/view")
+
+    public String EmployeeView(){
+        return  "Employee view";
+    }
 }
